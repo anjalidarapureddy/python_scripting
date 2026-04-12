@@ -1,0 +1,9 @@
+'''
+argparse is a Python module used to:
+
+parse command-line arguments (CLI inputs)
+instead of directly hardcoding values like
+env = "prod"   make scripts dynamic
+python3 deploy.py --env prod --version v1
+
+'''
