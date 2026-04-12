@@ -1,0 +1,11 @@
+'''
+json-javascript object notation. It’s a data format used to exchange data between systems.
+why we this means 
+in devops we use json fromat only in cloud, configs, logs, kubernetes. bcz json is light weight, human readable, machine readable
+
+operations used to 
+convert json -> python (loads)
+convert python->json (dumps)
+ file -> python (load) used to red the file
+python-> file(dump) used to write the file
+

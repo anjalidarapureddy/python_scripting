@@ -1,0 +1,57 @@
+2026-04-12 06:15:15,475 - [INFO] - Running: dockerpullmysql 
+2026-04-12 06:15:33,304 - [INFO] - Using default tag: latest
+latest: Pulling from library/mysql
+d4c7048d1cf1: Pulling fs layer
+7ef200aee2ac: Pulling fs layer
+fc3bc5fe2030: Pulling fs layer
+3a83832a6208: Pulling fs layer
+f7eb4be426a1: Pulling fs layer
+ad38d99426c5: Pulling fs layer
+c75b6f683cbd: Pulling fs layer
+4e3633ebbb73: Pulling fs layer
+dc0ae5ec7f3c: Pulling fs layer
+660dee12630a: Pulling fs layer
+3a83832a6208: Waiting
+f7eb4be426a1: Waiting
+ad38d99426c5: Waiting
+c75b6f683cbd: Waiting
+4e3633ebbb73: Waiting
+dc0ae5ec7f3c: Waiting
+660dee12630a: Waiting
+7ef200aee2ac: Verifying Checksum
+7ef200aee2ac: Download complete
+fc3bc5fe2030: Verifying Checksum
+fc3bc5fe2030: Download complete
+f7eb4be426a1: Verifying Checksum
+f7eb4be426a1: Download complete
+ad38d99426c5: Verifying Checksum
+ad38d99426c5: Download complete
+3a83832a6208: Verifying Checksum
+3a83832a6208: Download complete
+4e3633ebbb73: Verifying Checksum
+4e3633ebbb73: Download complete
+d4c7048d1cf1: Verifying Checksum
+d4c7048d1cf1: Download complete
+660dee12630a: Verifying Checksum
+660dee12630a: Download complete
+c75b6f683cbd: Verifying Checksum
+c75b6f683cbd: Download complete
+dc0ae5ec7f3c: Verifying Checksum
+dc0ae5ec7f3c: Download complete
+d4c7048d1cf1: Pull complete
+7ef200aee2ac: Pull complete
+fc3bc5fe2030: Pull complete
+3a83832a6208: Pull complete
+f7eb4be426a1: Pull complete
+ad38d99426c5: Pull complete
+c75b6f683cbd: Pull complete
+4e3633ebbb73: Pull complete
+dc0ae5ec7f3c: Pull complete
+660dee12630a: Pull complete
+Digest: sha256:24e450bbd24f621c71b10404c946cc9ea1cbb0e6e7464b2be2de5193dcf1d05b
+Status: Downloaded newer image for mysql:latest
+docker.io/library/mysql:latest 
+2026-04-12 06:15:33,304 - [INFO] - step completed successfully 
+2026-04-12 06:15:33,304 - [INFO] - Running: dockerrun-d--namemydb-p3306:3306mysql 
+2026-04-12 06:15:34,077 - [INFO] - b2ced2bcd3d26d7c11466c7ff81ec187fad529bd786ac238c567d0a62f075b74 
+2026-04-12 06:15:34,077 - [INFO] - step completed successfully 

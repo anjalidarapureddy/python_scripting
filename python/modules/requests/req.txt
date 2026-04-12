@@ -1,0 +1,15 @@
+'''
+requests is a python library is used to send http requests(GET, PUT, POST, DELETE) to APIs
+You’ll use requests to:
+
+Call cloud APIs (AWS, GCP)
+Trigger CI/CD pipelines
+Check service health
+Send alerts (Slack, Teams)
+Interact with Kubernetes APIs
+Monitor endpoints
+
+GET request - fetch data from the api
+POST request- send data
+headers - Headers are metadata (extra information) sent along with an HTTP request or response.
+'''

@@ -1,0 +1,4 @@
+2026-04-12 02:16:41,869 - [INFO] - Running: dockerpullnginx
+2026-04-12 02:16:44,047 - [INFO] - success
+2026-04-12 02:16:44,047 - [INFO] - Running: dockerrun-d--namemyapp-p80:80nginx
+2026-04-12 02:16:44,775 - [INFO] - success

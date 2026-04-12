@@ -1,0 +1,7 @@
+
+sub-process allows python to 
+run system commands (Linux commands, Docker, kubectl, git, etc.) and interact with them
+Run deployments (kubectl apply)
+Build images (docker build)
+Check system status (df -h, ps)
+Automate pipelines

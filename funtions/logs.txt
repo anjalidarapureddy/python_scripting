@@ -1,0 +1,5 @@
+INFO Service started
+INFO User login
+ERROR Database failed
+INFO Request processed
+ERROR Timeout

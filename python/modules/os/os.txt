@@ -1,0 +1,5 @@
+'''
+os module hepls to automate the interactions with your computer's os.
+for syatem-level taks. mainly it manages files, directories, environment variable handling, permission and metadata control,
+cross-platform portability
+''' 

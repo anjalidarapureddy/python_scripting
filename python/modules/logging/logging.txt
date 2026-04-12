@@ -1,0 +1,43 @@
+''' 
+logging is used to record the events, logs with different security levels like INFO, DEBUG, WARNING, ERROR. it also supports the features like log formatting, file storage and log rotation.
+we dont use print() in production bcz it is temorary and also have no levels, no timestamps
+levels
+-----
+logging.debug - detailed info
+logging.info - normal events
+logging.error - failure
+logging.critical - system crash
+logging.warning - something unexpected
+
+
+format fileds
+---------
+%(asctime)s - timestamp
+%(levelname)s - loglevel
+%(message)s - actualmessage
+
+loggers
+-----
+logger is an object that creates and manage logs
+we use logger instead of directly using logging bcz
+multiple modules-> separate loggers, better control, scalable applications
+components: logger -> generate logs
+	    handler -> where logs go (file/terminal)
+	    formatter -> how logs look
+
+log rotation
+------
+Log rotation = automatically managing log file size
+
+RotatingFileHandler(
+    "app.log",
+    maxBytes=1000,
+    backupCount=3
+)
+
+When size > 1000 bytes:
+app.log → renamed to app.log.1
+new app.log created
+Next rotation:
+app.log → app.log.1
+app.log.1 → app.log.2
