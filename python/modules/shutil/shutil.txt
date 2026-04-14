@@ -1,0 +1,17 @@
+'''
+shutil library provides high-level file ad directory operations.
+shutil = shell utilities
+file operations like mv, copy, archieve, delete
+
+eg's:
+shutil.copy("source.txt", "dest.txt") #it copies only file content + permissions
+
+shutil.copy2("source.txt", "dest.txt") #it includes the metadata like timestamp
+
+shutil.copytree("src_folder", "dest_folder") # it copies entire directory recursively
+
+shutil.move("file.txt", "/backup") # it moves the file to the directory
+
+shutil.rmtree("folder") #it removes the folder
+
+os also run this shell and also subprocess also do but shutil doesn't execute the run commands unlike subprocess.
